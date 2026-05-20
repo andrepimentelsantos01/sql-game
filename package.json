@@ -1,0 +1,8 @@
+{
+  "name": "sql-quest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev:app": "chcp 65001 >NUL && powershell -NoProfile -ExecutionPolicy Bypass -File .\\scripts\\dev-app.ps1"
+  }
+}

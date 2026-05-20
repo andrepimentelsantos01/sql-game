@@ -1,0 +1,3015 @@
+{
+  "metadata": {
+    "title": "Quiz SQL - perguntas de ajuda",
+    "description": "Perguntas convertidas para o fluxo Pedir Ajuda do SQL Quest.",
+    "total_questions": 100,
+    "levels": {
+      "Júnior": 34,
+      "Pleno": 33,
+      "Sênior": 33
+    },
+    "source": "quiz_sql_100_perguntas.json"
+  },
+  "questions": [
+    {
+      "id": "quiz-sql-001",
+      "level": "Júnior",
+      "question": "Qual comando é usado para consultar dados de uma tabela?",
+      "correct_option_id": "e",
+      "explanation": "SELECT é o comando usado para consultar dados e escolher quais colunas ou expressões entram no resultado.",
+      "source_id": 1,
+      "options": [
+        {
+          "id": "a",
+          "label": "FETCH TABLE"
+        },
+        {
+          "id": "b",
+          "label": "SEARCH"
+        },
+        {
+          "id": "c",
+          "label": "GET"
+        },
+        {
+          "id": "d",
+          "label": "READ"
+        },
+        {
+          "id": "e",
+          "label": "SELECT"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-002",
+      "level": "Júnior",
+      "question": "Qual cláusula é usada para filtrar linhas antes do resultado final?",
+      "correct_option_id": "e",
+      "explanation": "WHERE filtra linhas antes de agrupamentos e agregações, por isso reduz o conjunto de dados analisado pela consulta.",
+      "source_id": 2,
+      "options": [
+        {
+          "id": "a",
+          "label": "ORDER BY"
+        },
+        {
+          "id": "b",
+          "label": "HAVING"
+        },
+        {
+          "id": "c",
+          "label": "FILTER BY"
+        },
+        {
+          "id": "d",
+          "label": "GROUP BY"
+        },
+        {
+          "id": "e",
+          "label": "WHERE"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-003",
+      "level": "Júnior",
+      "question": "Qual cláusula organiza o resultado de uma consulta em ordem crescente ou decrescente?",
+      "correct_option_id": "c",
+      "explanation": "ORDER BY define a ordenação final do resultado, podendo usar ASC para crescente ou DESC para decrescente.",
+      "source_id": 3,
+      "options": [
+        {
+          "id": "a",
+          "label": "ARRANGE BY"
+        },
+        {
+          "id": "b",
+          "label": "GROUP BY"
+        },
+        {
+          "id": "c",
+          "label": "ORDER BY"
+        },
+        {
+          "id": "d",
+          "label": "SORT BY"
+        },
+        {
+          "id": "e",
+          "label": "SEQUENCE BY"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-004",
+      "level": "Júnior",
+      "question": "Qual função conta a quantidade de linhas ou valores em uma consulta?",
+      "correct_option_id": "c",
+      "explanation": "COUNT é uma função agregadora que conta registros ou valores não nulos, dependendo da expressão usada.",
+      "source_id": 4,
+      "options": [
+        {
+          "id": "a",
+          "label": "AVG"
+        },
+        {
+          "id": "b",
+          "label": "TOTAL"
+        },
+        {
+          "id": "c",
+          "label": "COUNT"
+        },
+        {
+          "id": "d",
+          "label": "NUMBER"
+        },
+        {
+          "id": "e",
+          "label": "SUM"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-005",
+      "level": "Júnior",
+      "question": "Qual função calcula a média de uma coluna numérica?",
+      "correct_option_id": "e",
+      "explanation": "AVG calcula a média dos valores numéricos de uma coluna ou expressão.",
+      "source_id": 5,
+      "options": [
+        {
+          "id": "a",
+          "label": "COUNT"
+        },
+        {
+          "id": "b",
+          "label": "MEDIAN"
+        },
+        {
+          "id": "c",
+          "label": "SUM"
+        },
+        {
+          "id": "d",
+          "label": "MEAN"
+        },
+        {
+          "id": "e",
+          "label": "AVG"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-006",
+      "level": "Júnior",
+      "question": "Qual função soma os valores de uma coluna numérica?",
+      "correct_option_id": "a",
+      "explanation": "SUM soma valores numéricos dentro do conjunto filtrado ou de cada grupo.",
+      "source_id": 6,
+      "options": [
+        {
+          "id": "a",
+          "label": "SUM"
+        },
+        {
+          "id": "b",
+          "label": "TOTAL"
+        },
+        {
+          "id": "c",
+          "label": "ADD"
+        },
+        {
+          "id": "d",
+          "label": "COUNT"
+        },
+        {
+          "id": "e",
+          "label": "PLUS"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-007",
+      "level": "Júnior",
+      "question": "Qual função retorna o maior valor de uma coluna?",
+      "correct_option_id": "a",
+      "explanation": "MAX retorna o maior valor encontrado em uma coluna ou expressão.",
+      "source_id": 7,
+      "options": [
+        {
+          "id": "a",
+          "label": "MAX"
+        },
+        {
+          "id": "b",
+          "label": "GREATEST_ROW"
+        },
+        {
+          "id": "c",
+          "label": "TOP"
+        },
+        {
+          "id": "d",
+          "label": "HIGH"
+        },
+        {
+          "id": "e",
+          "label": "UPPER"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-008",
+      "level": "Júnior",
+      "question": "Qual função retorna o menor valor de uma coluna?",
+      "correct_option_id": "e",
+      "explanation": "MIN retorna o menor valor encontrado em uma coluna ou expressão.",
+      "source_id": 8,
+      "options": [
+        {
+          "id": "a",
+          "label": "SMALL"
+        },
+        {
+          "id": "b",
+          "label": "LOWER"
+        },
+        {
+          "id": "c",
+          "label": "BOTTOM"
+        },
+        {
+          "id": "d",
+          "label": "LESS"
+        },
+        {
+          "id": "e",
+          "label": "MIN"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-009",
+      "level": "Júnior",
+      "question": "Qual palavra-chave remove valores duplicados do resultado?",
+      "correct_option_id": "e",
+      "explanation": "DISTINCT remove linhas duplicadas do resultado considerando as colunas selecionadas.",
+      "source_id": 9,
+      "options": [
+        {
+          "id": "a",
+          "label": "DEDUP"
+        },
+        {
+          "id": "b",
+          "label": "SINGLE"
+        },
+        {
+          "id": "c",
+          "label": "UNIQUE"
+        },
+        {
+          "id": "d",
+          "label": "ONLY"
+        },
+        {
+          "id": "e",
+          "label": "DISTINCT"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-010",
+      "level": "Júnior",
+      "question": "Qual cláusula agrupa linhas para aplicar funções como COUNT, SUM ou AVG?",
+      "correct_option_id": "c",
+      "explanation": "GROUP BY reúne linhas com o mesmo valor em grupos, permitindo calcular métricas como COUNT, SUM e AVG por grupo.",
+      "source_id": 10,
+      "options": [
+        {
+          "id": "a",
+          "label": "COLLECT BY"
+        },
+        {
+          "id": "b",
+          "label": "WHERE"
+        },
+        {
+          "id": "c",
+          "label": "GROUP BY"
+        },
+        {
+          "id": "d",
+          "label": "ORDER BY"
+        },
+        {
+          "id": "e",
+          "label": "JOIN BY"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-011",
+      "level": "Júnior",
+      "question": "Qual cláusula filtra grupos depois de uma agregação?",
+      "correct_option_id": "d",
+      "explanation": "HAVING filtra grupos depois do GROUP BY, especialmente quando o filtro depende de uma função agregada.",
+      "source_id": 11,
+      "options": [
+        {
+          "id": "a",
+          "label": "GROUP WHERE"
+        },
+        {
+          "id": "b",
+          "label": "FILTER"
+        },
+        {
+          "id": "c",
+          "label": "WHERE"
+        },
+        {
+          "id": "d",
+          "label": "HAVING"
+        },
+        {
+          "id": "e",
+          "label": "AFTER GROUP"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-012",
+      "level": "Júnior",
+      "question": "Qual cláusula limita a quantidade de linhas retornadas em muitos bancos SQL?",
+      "correct_option_id": "a",
+      "explanation": "LIMIT restringe a quantidade de linhas retornadas pela consulta.",
+      "source_id": 12,
+      "options": [
+        {
+          "id": "a",
+          "label": "LIMIT"
+        },
+        {
+          "id": "b",
+          "label": "MAXROWS"
+        },
+        {
+          "id": "c",
+          "label": "ROWCOUNT"
+        },
+        {
+          "id": "d",
+          "label": "TOPONLY"
+        },
+        {
+          "id": "e",
+          "label": "CUT"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-013",
+      "level": "Júnior",
+      "question": "Qual palavra-chave pode criar um apelido para uma coluna no resultado?",
+      "correct_option_id": "a",
+      "explanation": "A resposta correta é AS porque esse recurso atende diretamente ao conceito SQL descrito na pergunta.",
+      "source_id": 13,
+      "options": [
+        {
+          "id": "a",
+          "label": "AS"
+        },
+        {
+          "id": "b",
+          "label": "LIKE"
+        },
+        {
+          "id": "c",
+          "label": "TO"
+        },
+        {
+          "id": "d",
+          "label": "IS"
+        },
+        {
+          "id": "e",
+          "label": "ALIAS BY"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-014",
+      "level": "Júnior",
+      "question": "Qual JOIN retorna apenas registros que possuem correspondência nas duas tabelas?",
+      "correct_option_id": "c",
+      "explanation": "INNER JOIN retorna apenas linhas que possuem correspondência nas duas tabelas pela condição definida no ON.",
+      "source_id": 14,
+      "options": [
+        {
+          "id": "a",
+          "label": "FULL JOIN"
+        },
+        {
+          "id": "b",
+          "label": "LEFT JOIN"
+        },
+        {
+          "id": "c",
+          "label": "INNER JOIN"
+        },
+        {
+          "id": "d",
+          "label": "RIGHT JOIN"
+        },
+        {
+          "id": "e",
+          "label": "CROSS JOIN"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-015",
+      "level": "Júnior",
+      "question": "Qual JOIN retorna todos os registros da tabela da esquerda e os correspondentes da direita?",
+      "correct_option_id": "d",
+      "explanation": "LEFT JOIN preserva todas as linhas da tabela à esquerda e completa com NULL quando não há correspondência à direita.",
+      "source_id": 15,
+      "options": [
+        {
+          "id": "a",
+          "label": "RIGHT JOIN"
+        },
+        {
+          "id": "b",
+          "label": "CROSS JOIN"
+        },
+        {
+          "id": "c",
+          "label": "FULL JOIN"
+        },
+        {
+          "id": "d",
+          "label": "LEFT JOIN"
+        },
+        {
+          "id": "e",
+          "label": "INNER JOIN"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-016",
+      "level": "Júnior",
+      "question": "Como verificar corretamente se uma coluna está nula?",
+      "correct_option_id": "e",
+      "explanation": "NULL representa ausência de valor; ele não é igual a zero nem a texto vazio.",
+      "source_id": 16,
+      "options": [
+        {
+          "id": "a",
+          "label": "coluna LIKE NULL"
+        },
+        {
+          "id": "b",
+          "label": "coluna == NULL"
+        },
+        {
+          "id": "c",
+          "label": "coluna IN NULL"
+        },
+        {
+          "id": "d",
+          "label": "coluna = NULL"
+        },
+        {
+          "id": "e",
+          "label": "coluna IS NULL"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-017",
+      "level": "Júnior",
+      "question": "Como verificar corretamente se uma coluna não está nula?",
+      "correct_option_id": "d",
+      "explanation": "NULL representa ausência de valor; ele não é igual a zero nem a texto vazio.",
+      "source_id": 17,
+      "options": [
+        {
+          "id": "a",
+          "label": "coluna HAS VALUE"
+        },
+        {
+          "id": "b",
+          "label": "coluna NOT NULL"
+        },
+        {
+          "id": "c",
+          "label": "coluna != NULL"
+        },
+        {
+          "id": "d",
+          "label": "coluna IS NOT NULL"
+        },
+        {
+          "id": "e",
+          "label": "coluna <> NULL"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-018",
+      "level": "Júnior",
+      "question": "Qual operador é usado com curingas para buscar padrões em textos?",
+      "correct_option_id": "a",
+      "explanation": "LIKE compara textos com padrões, normalmente usando % para qualquer sequência de caracteres.",
+      "source_id": 18,
+      "options": [
+        {
+          "id": "a",
+          "label": "LIKE"
+        },
+        {
+          "id": "b",
+          "label": "FIND"
+        },
+        {
+          "id": "c",
+          "label": "SEARCH"
+        },
+        {
+          "id": "d",
+          "label": "MATCH"
+        },
+        {
+          "id": "e",
+          "label": "EQUALS"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-019",
+      "level": "Júnior",
+      "question": "Em uma busca com LIKE, qual curinga costuma representar qualquer sequência de caracteres?",
+      "correct_option_id": "c",
+      "explanation": "LIKE compara textos com padrões, normalmente usando % para qualquer sequência de caracteres.",
+      "source_id": 19,
+      "options": [
+        {
+          "id": "a",
+          "label": "?"
+        },
+        {
+          "id": "b",
+          "label": "#"
+        },
+        {
+          "id": "c",
+          "label": "%"
+        },
+        {
+          "id": "d",
+          "label": "*"
+        },
+        {
+          "id": "e",
+          "label": "_"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-020",
+      "level": "Júnior",
+      "question": "Qual operador verifica se um valor está dentro de uma lista de valores?",
+      "correct_option_id": "e",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 20,
+      "options": [
+        {
+          "id": "a",
+          "label": "BETWEEN"
+        },
+        {
+          "id": "b",
+          "label": "ANYWHERE"
+        },
+        {
+          "id": "c",
+          "label": "CONTAINS"
+        },
+        {
+          "id": "d",
+          "label": "LIST"
+        },
+        {
+          "id": "e",
+          "label": "IN"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-021",
+      "level": "Júnior",
+      "question": "Qual operador verifica se um valor está dentro de um intervalo?",
+      "correct_option_id": "c",
+      "explanation": "BETWEEN testa se um valor está dentro de um intervalo, incluindo os limites na maioria dos bancos SQL.",
+      "source_id": 21,
+      "options": [
+        {
+          "id": "a",
+          "label": "RANGE"
+        },
+        {
+          "id": "b",
+          "label": "LIMIT"
+        },
+        {
+          "id": "c",
+          "label": "BETWEEN"
+        },
+        {
+          "id": "d",
+          "label": "IN"
+        },
+        {
+          "id": "e",
+          "label": "INTERVAL"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-022",
+      "level": "Júnior",
+      "question": "Qual função é usada para limitar casas decimais de uma média ou taxa calculada?",
+      "correct_option_id": "a",
+      "explanation": "LIMIT restringe a quantidade de linhas retornadas pela consulta.",
+      "source_id": 22,
+      "options": [
+        {
+          "id": "a",
+          "label": "ROUND"
+        },
+        {
+          "id": "b",
+          "label": "FORMAT DATE"
+        },
+        {
+          "id": "c",
+          "label": "ORDER BY"
+        },
+        {
+          "id": "d",
+          "label": "AVG"
+        },
+        {
+          "id": "e",
+          "label": "TRUNCATE"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-023",
+      "level": "Júnior",
+      "question": "Qual comando adiciona novas linhas em uma tabela?",
+      "correct_option_id": "a",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 23,
+      "options": [
+        {
+          "id": "a",
+          "label": "INSERT INTO"
+        },
+        {
+          "id": "b",
+          "label": "NEW RECORD"
+        },
+        {
+          "id": "c",
+          "label": "ADD INTO"
+        },
+        {
+          "id": "d",
+          "label": "CREATE ROW"
+        },
+        {
+          "id": "e",
+          "label": "APPEND TABLE"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-024",
+      "level": "Júnior",
+      "question": "Qual comando altera valores já existentes em uma tabela?",
+      "correct_option_id": "d",
+      "explanation": "A resposta correta é UPDATE porque esse recurso atende diretamente ao conceito SQL descrito na pergunta.",
+      "source_id": 24,
+      "options": [
+        {
+          "id": "a",
+          "label": "ALTER VALUE"
+        },
+        {
+          "id": "b",
+          "label": "MODIFY ROW"
+        },
+        {
+          "id": "c",
+          "label": "CHANGE"
+        },
+        {
+          "id": "d",
+          "label": "UPDATE"
+        },
+        {
+          "id": "e",
+          "label": "SET TABLE"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-025",
+      "level": "Júnior",
+      "question": "Qual comando remove linhas de uma tabela?",
+      "correct_option_id": "a",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 25,
+      "options": [
+        {
+          "id": "a",
+          "label": "DELETE"
+        },
+        {
+          "id": "b",
+          "label": "DROP ROW"
+        },
+        {
+          "id": "c",
+          "label": "REMOVE"
+        },
+        {
+          "id": "d",
+          "label": "TRUNCATE WHERE"
+        },
+        {
+          "id": "e",
+          "label": "CLEAR ROWS"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-026",
+      "level": "Júnior",
+      "question": "Qual comando cria uma nova tabela?",
+      "correct_option_id": "c",
+      "explanation": "A resposta correta é CREATE TABLE porque esse recurso atende diretamente ao conceito SQL descrito na pergunta.",
+      "source_id": 26,
+      "options": [
+        {
+          "id": "a",
+          "label": "MAKE TABLE"
+        },
+        {
+          "id": "b",
+          "label": "INSERT TABLE"
+        },
+        {
+          "id": "c",
+          "label": "CREATE TABLE"
+        },
+        {
+          "id": "d",
+          "label": "BUILD TABLE"
+        },
+        {
+          "id": "e",
+          "label": "NEW TABLE"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-027",
+      "level": "Júnior",
+      "question": "Qual comando remove uma tabela inteira do banco de dados?",
+      "correct_option_id": "b",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 27,
+      "options": [
+        {
+          "id": "a",
+          "label": "DELETE TABLE"
+        },
+        {
+          "id": "b",
+          "label": "DROP TABLE"
+        },
+        {
+          "id": "c",
+          "label": "REMOVE TABLE"
+        },
+        {
+          "id": "d",
+          "label": "CLEAR TABLE"
+        },
+        {
+          "id": "e",
+          "label": "TRUNCATE ROW"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-028",
+      "level": "Júnior",
+      "question": "Qual tipo de chave identifica unicamente cada registro de uma tabela?",
+      "correct_option_id": "d",
+      "explanation": "A resposta correta é PRIMARY KEY porque esse recurso atende diretamente ao conceito SQL descrito na pergunta.",
+      "source_id": 28,
+      "options": [
+        {
+          "id": "a",
+          "label": "UNIQUE JOIN"
+        },
+        {
+          "id": "b",
+          "label": "JOIN KEY"
+        },
+        {
+          "id": "c",
+          "label": "FOREIGN KEY"
+        },
+        {
+          "id": "d",
+          "label": "PRIMARY KEY"
+        },
+        {
+          "id": "e",
+          "label": "GROUP KEY"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-029",
+      "level": "Júnior",
+      "question": "Qual chave cria uma referência entre uma tabela e outra?",
+      "correct_option_id": "b",
+      "explanation": "A resposta correta é FOREIGN KEY porque esse recurso atende diretamente ao conceito SQL descrito na pergunta.",
+      "source_id": 29,
+      "options": [
+        {
+          "id": "a",
+          "label": "LOCAL KEY"
+        },
+        {
+          "id": "b",
+          "label": "FOREIGN KEY"
+        },
+        {
+          "id": "c",
+          "label": "FILTER KEY"
+        },
+        {
+          "id": "d",
+          "label": "ORDER KEY"
+        },
+        {
+          "id": "e",
+          "label": "PRIMARY KEY"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-030",
+      "level": "Júnior",
+      "question": "Qual operador lógico exige que duas condições sejam verdadeiras ao mesmo tempo?",
+      "correct_option_id": "c",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 30,
+      "options": [
+        {
+          "id": "a",
+          "label": "BOTH"
+        },
+        {
+          "id": "b",
+          "label": "OR"
+        },
+        {
+          "id": "c",
+          "label": "AND"
+        },
+        {
+          "id": "d",
+          "label": "XOR"
+        },
+        {
+          "id": "e",
+          "label": "NOT"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-031",
+      "level": "Júnior",
+      "question": "Qual operador lógico retorna verdadeiro quando pelo menos uma condição é verdadeira?",
+      "correct_option_id": "b",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 31,
+      "options": [
+        {
+          "id": "a",
+          "label": "AND"
+        },
+        {
+          "id": "b",
+          "label": "OR"
+        },
+        {
+          "id": "c",
+          "label": "NOT"
+        },
+        {
+          "id": "d",
+          "label": "ONLY"
+        },
+        {
+          "id": "e",
+          "label": "ALL"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-032",
+      "level": "Júnior",
+      "question": "Qual operador lógico inverte o resultado de uma condição?",
+      "correct_option_id": "b",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 32,
+      "options": [
+        {
+          "id": "a",
+          "label": "AND"
+        },
+        {
+          "id": "b",
+          "label": "NOT"
+        },
+        {
+          "id": "c",
+          "label": "IN"
+        },
+        {
+          "id": "d",
+          "label": "OR"
+        },
+        {
+          "id": "e",
+          "label": "IS"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-033",
+      "level": "Júnior",
+      "question": "Qual símbolo costuma ser usado para comentário de uma linha em SQL?",
+      "correct_option_id": "d",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 33,
+      "options": [
+        {
+          "id": "a",
+          "label": "**"
+        },
+        {
+          "id": "b",
+          "label": "#"
+        },
+        {
+          "id": "c",
+          "label": "/*"
+        },
+        {
+          "id": "d",
+          "label": "--"
+        },
+        {
+          "id": "e",
+          "label": "//"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-034",
+      "level": "Júnior",
+      "question": "Qual comando remove todos os dados de uma tabela, mantendo a estrutura, em muitos bancos SQL?",
+      "correct_option_id": "c",
+      "explanation": "TRUNCATE remove todos os dados de uma tabela mantendo sua estrutura, quando o banco oferece esse comando.",
+      "source_id": 34,
+      "options": [
+        {
+          "id": "a",
+          "label": "REMOVE STRUCTURE"
+        },
+        {
+          "id": "b",
+          "label": "CLEAR SCHEMA"
+        },
+        {
+          "id": "c",
+          "label": "TRUNCATE"
+        },
+        {
+          "id": "d",
+          "label": "DELETE DATABASE"
+        },
+        {
+          "id": "e",
+          "label": "DROP"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-035",
+      "level": "Pleno",
+      "question": "Em uma consulta agregada, quando você deve usar HAVING em vez de WHERE?",
+      "correct_option_id": "b",
+      "explanation": "WHERE filtra linhas antes de agrupamentos e agregações, por isso reduz o conjunto de dados analisado pela consulta.",
+      "source_id": 35,
+      "options": [
+        {
+          "id": "a",
+          "label": "Quando remover duplicados"
+        },
+        {
+          "id": "b",
+          "label": "Quando filtrar o resultado de uma função agregada"
+        },
+        {
+          "id": "c",
+          "label": "Quando ordenar o resultado final"
+        },
+        {
+          "id": "d",
+          "label": "Quando filtrar linhas antes do GROUP BY"
+        },
+        {
+          "id": "e",
+          "label": "Quando criar alias de coluna"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-036",
+      "level": "Pleno",
+      "question": "Em uma query com GROUP BY, o que deve acontecer com colunas no SELECT que não usam agregação?",
+      "correct_option_id": "b",
+      "explanation": "SELECT é o comando usado para consultar dados e escolher quais colunas ou expressões entram no resultado.",
+      "source_id": 36,
+      "options": [
+        {
+          "id": "a",
+          "label": "Devem usar DISTINCT"
+        },
+        {
+          "id": "b",
+          "label": "Devem aparecer no GROUP BY"
+        },
+        {
+          "id": "c",
+          "label": "Devem ser sempre numéricas"
+        },
+        {
+          "id": "d",
+          "label": "Devem aparecer no ORDER BY"
+        },
+        {
+          "id": "e",
+          "label": "Devem ficar dentro de WHERE"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-037",
+      "level": "Pleno",
+      "question": "Qual expressão permite criar regras condicionais dentro de uma consulta SQL?",
+      "correct_option_id": "e",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 37,
+      "options": [
+        {
+          "id": "a",
+          "label": "CONDITION AS"
+        },
+        {
+          "id": "b",
+          "label": "SWITCH BY"
+        },
+        {
+          "id": "c",
+          "label": "IF COLUMN"
+        },
+        {
+          "id": "d",
+          "label": "WHEN FILTER"
+        },
+        {
+          "id": "e",
+          "label": "CASE WHEN"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-038",
+      "level": "Pleno",
+      "question": "Qual função retorna o primeiro valor não nulo entre várias expressões?",
+      "correct_option_id": "c",
+      "explanation": "COALESCE retorna o primeiro valor não nulo da lista, sendo útil para tratar valores ausentes.",
+      "source_id": 38,
+      "options": [
+        {
+          "id": "a",
+          "label": "FIRST_VALUE"
+        },
+        {
+          "id": "b",
+          "label": "NVL2"
+        },
+        {
+          "id": "c",
+          "label": "COALESCE"
+        },
+        {
+          "id": "d",
+          "label": "NULLIF"
+        },
+        {
+          "id": "e",
+          "label": "IFNULLONLY"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-039",
+      "level": "Pleno",
+      "question": "Qual função retorna NULL quando duas expressões são iguais?",
+      "correct_option_id": "b",
+      "explanation": "NULL representa ausência de valor; ele não é igual a zero nem a texto vazio.",
+      "source_id": 39,
+      "options": [
+        {
+          "id": "a",
+          "label": "ISNULL"
+        },
+        {
+          "id": "b",
+          "label": "NULLIF"
+        },
+        {
+          "id": "c",
+          "label": "IFNULL"
+        },
+        {
+          "id": "d",
+          "label": "COALESCE"
+        },
+        {
+          "id": "e",
+          "label": "NVL"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-040",
+      "level": "Pleno",
+      "question": "Qual é a diferença mais correta entre COUNT(*) e COUNT(coluna)?",
+      "correct_option_id": "d",
+      "explanation": "COUNT é uma função agregadora que conta registros ou valores não nulos, dependendo da expressão usada.",
+      "source_id": 40,
+      "options": [
+        {
+          "id": "a",
+          "label": "COUNT(*) soma valores; COUNT(coluna) calcula média"
+        },
+        {
+          "id": "b",
+          "label": "COUNT(*) só funciona com GROUP BY; COUNT(coluna) não"
+        },
+        {
+          "id": "c",
+          "label": "COUNT(*) ignora NULL; COUNT(coluna) conta NULL"
+        },
+        {
+          "id": "d",
+          "label": "COUNT(*) conta linhas; COUNT(coluna) ignora valores NULL da coluna"
+        },
+        {
+          "id": "e",
+          "label": "COUNT(*) conta apenas duplicados; COUNT(coluna) remove duplicados"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-041",
+      "level": "Pleno",
+      "question": "Em um LEFT JOIN, colocar uma condição da tabela da direita no WHERE pode causar qual efeito?",
+      "correct_option_id": "d",
+      "explanation": "WHERE filtra linhas antes de agrupamentos e agregações, por isso reduz o conjunto de dados analisado pela consulta.",
+      "source_id": 41,
+      "options": [
+        {
+          "id": "a",
+          "label": "Impedir o uso de agregações"
+        },
+        {
+          "id": "b",
+          "label": "Duplicar automaticamente todas as linhas da esquerda"
+        },
+        {
+          "id": "c",
+          "label": "Criar uma chave primária temporária"
+        },
+        {
+          "id": "d",
+          "label": "Transformar o resultado em algo parecido com INNER JOIN"
+        },
+        {
+          "id": "e",
+          "label": "Remover a necessidade de ON"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-042",
+      "level": "Pleno",
+      "question": "Qual técnica permite juntar uma tabela com ela mesma?",
+      "correct_option_id": "e",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 42,
+      "options": [
+        {
+          "id": "a",
+          "label": "REJOIN"
+        },
+        {
+          "id": "b",
+          "label": "LOOP JOIN"
+        },
+        {
+          "id": "c",
+          "label": "SAME UNION"
+        },
+        {
+          "id": "d",
+          "label": "AUTO GROUP"
+        },
+        {
+          "id": "e",
+          "label": "SELF JOIN"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-043",
+      "level": "Pleno",
+      "question": "Qual recurso permite nomear uma subconsulta temporária usando WITH?",
+      "correct_option_id": "d",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 43,
+      "options": [
+        {
+          "id": "a",
+          "label": "VIEW"
+        },
+        {
+          "id": "b",
+          "label": "INDEX"
+        },
+        {
+          "id": "c",
+          "label": "TRIGGER"
+        },
+        {
+          "id": "d",
+          "label": "CTE"
+        },
+        {
+          "id": "e",
+          "label": "CURSOR"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-044",
+      "level": "Pleno",
+      "question": "Qual diferença entre UNION e UNION ALL está correta?",
+      "correct_option_id": "e",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 44,
+      "options": [
+        {
+          "id": "a",
+          "label": "UNION ALL remove duplicados; UNION mantém todos"
+        },
+        {
+          "id": "b",
+          "label": "UNION ordena sempre; UNION ALL nunca aceita ORDER BY"
+        },
+        {
+          "id": "c",
+          "label": "UNION só junta colunas; UNION ALL só junta tabelas"
+        },
+        {
+          "id": "d",
+          "label": "UNION exige JOIN; UNION ALL exige GROUP BY"
+        },
+        {
+          "id": "e",
+          "label": "UNION remove duplicados; UNION ALL mantém todos os registros"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-045",
+      "level": "Pleno",
+      "question": "Qual cláusula costuma ser usada junto com LIMIT para pular uma quantidade de linhas?",
+      "correct_option_id": "c",
+      "explanation": "LIMIT restringe a quantidade de linhas retornadas pela consulta.",
+      "source_id": 45,
+      "options": [
+        {
+          "id": "a",
+          "label": "SKIP"
+        },
+        {
+          "id": "b",
+          "label": "AFTER"
+        },
+        {
+          "id": "c",
+          "label": "OFFSET"
+        },
+        {
+          "id": "d",
+          "label": "JUMP"
+        },
+        {
+          "id": "e",
+          "label": "NEXT"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-046",
+      "level": "Pleno",
+      "question": "Qual função de janela numera linhas sequencialmente dentro de uma ordenação?",
+      "correct_option_id": "b",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 46,
+      "options": [
+        {
+          "id": "a",
+          "label": "COUNT_NUMBER"
+        },
+        {
+          "id": "b",
+          "label": "ROW_NUMBER"
+        },
+        {
+          "id": "c",
+          "label": "ORDER_ID"
+        },
+        {
+          "id": "d",
+          "label": "DENSE_RANK"
+        },
+        {
+          "id": "e",
+          "label": "RANK"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-047",
+      "level": "Pleno",
+      "question": "Em funções de janela, o que PARTITION BY define?",
+      "correct_option_id": "a",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 47,
+      "options": [
+        {
+          "id": "a",
+          "label": "Os grupos independentes onde a janela será calculada"
+        },
+        {
+          "id": "b",
+          "label": "O limite de linhas retornadas"
+        },
+        {
+          "id": "c",
+          "label": "A remoção de duplicados"
+        },
+        {
+          "id": "d",
+          "label": "A ordem física da tabela"
+        },
+        {
+          "id": "e",
+          "label": "A chave primária da tabela"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-048",
+      "level": "Pleno",
+      "question": "Qual diferença entre RANK e DENSE_RANK está correta?",
+      "correct_option_id": "c",
+      "explanation": "RANK cria posições em um ranking e deixa lacunas quando há empate.",
+      "source_id": 48,
+      "options": [
+        {
+          "id": "a",
+          "label": "RANK exige GROUP BY; DENSE_RANK exige HAVING"
+        },
+        {
+          "id": "b",
+          "label": "RANK só funciona com texto; DENSE_RANK só com número"
+        },
+        {
+          "id": "c",
+          "label": "RANK pula posições após empate; DENSE_RANK não pula"
+        },
+        {
+          "id": "d",
+          "label": "DENSE_RANK pula posições após empate; RANK não pula"
+        },
+        {
+          "id": "e",
+          "label": "As duas funções sempre retornam valores idênticos"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-049",
+      "level": "Pleno",
+      "question": "Qual expressão calcula um total acumulado ao longo de uma ordenação?",
+      "correct_option_id": "d",
+      "explanation": "ORDER BY define a ordenação final do resultado, podendo usar ASC para crescente ou DESC para decrescente.",
+      "source_id": 49,
+      "options": [
+        {
+          "id": "a",
+          "label": "COUNT(valor) OVER (GROUP BY data)"
+        },
+        {
+          "id": "b",
+          "label": "TOTAL(valor) WHERE data"
+        },
+        {
+          "id": "c",
+          "label": "AVG(valor) HAVING data"
+        },
+        {
+          "id": "d",
+          "label": "SUM(valor) OVER (ORDER BY data)"
+        },
+        {
+          "id": "e",
+          "label": "SUM(valor) GROUP BY data"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-050",
+      "level": "Pleno",
+      "question": "Qual padrão é comum para fazer contagem condicional em SQL?",
+      "correct_option_id": "a",
+      "explanation": "SUM soma valores numéricos dentro do conjunto filtrado ou de cada grupo.",
+      "source_id": 50,
+      "options": [
+        {
+          "id": "a",
+          "label": "SUM(CASE WHEN condicao THEN 1 ELSE 0 END)"
+        },
+        {
+          "id": "b",
+          "label": "FILTER COUNT BY condicao"
+        },
+        {
+          "id": "c",
+          "label": "COUNT IF condicao END"
+        },
+        {
+          "id": "d",
+          "label": "COUNT(WHERE condicao)"
+        },
+        {
+          "id": "e",
+          "label": "GROUP BY CASE COUNT"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-051",
+      "level": "Pleno",
+      "question": "Qual abordagem é comum para pegar o primeiro registro de cada grupo?",
+      "correct_option_id": "c",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 51,
+      "options": [
+        {
+          "id": "a",
+          "label": "Usar COUNT(*) e filtrar COUNT = 1"
+        },
+        {
+          "id": "b",
+          "label": "Usar TRUNCATE na tabela"
+        },
+        {
+          "id": "c",
+          "label": "Usar ROW_NUMBER() com PARTITION BY e filtrar rn = 1"
+        },
+        {
+          "id": "d",
+          "label": "Usar ORDER BY antes do WHERE"
+        },
+        {
+          "id": "e",
+          "label": "Usar DISTINCT em todas as colunas"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-052",
+      "level": "Pleno",
+      "question": "Qual JOIN produz combinação de todas as linhas de uma tabela com todas as linhas de outra?",
+      "correct_option_id": "a",
+      "explanation": "CROSS JOIN combina cada linha de uma tabela com cada linha da outra, formando um produto cartesiano.",
+      "source_id": 52,
+      "options": [
+        {
+          "id": "a",
+          "label": "CROSS JOIN"
+        },
+        {
+          "id": "b",
+          "label": "LEFT JOIN"
+        },
+        {
+          "id": "c",
+          "label": "INNER JOIN"
+        },
+        {
+          "id": "d",
+          "label": "FULL JOIN"
+        },
+        {
+          "id": "e",
+          "label": "SELF JOIN"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-053",
+      "level": "Pleno",
+      "question": "Qual comando confirma definitivamente uma transação?",
+      "correct_option_id": "d",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 53,
+      "options": [
+        {
+          "id": "a",
+          "label": "END"
+        },
+        {
+          "id": "b",
+          "label": "CONFIRM"
+        },
+        {
+          "id": "c",
+          "label": "SAVE"
+        },
+        {
+          "id": "d",
+          "label": "COMMIT"
+        },
+        {
+          "id": "e",
+          "label": "APPLY"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-054",
+      "level": "Pleno",
+      "question": "Qual comando desfaz alterações ainda não confirmadas em uma transação?",
+      "correct_option_id": "d",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 54,
+      "options": [
+        {
+          "id": "a",
+          "label": "UNDO"
+        },
+        {
+          "id": "b",
+          "label": "DROP TRANSACTION"
+        },
+        {
+          "id": "c",
+          "label": "CANCEL"
+        },
+        {
+          "id": "d",
+          "label": "ROLLBACK"
+        },
+        {
+          "id": "e",
+          "label": "REVERT TABLE"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-055",
+      "level": "Pleno",
+      "question": "Qual propriedade ACID garante que uma transação acontece por completo ou não acontece?",
+      "correct_option_id": "c",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 55,
+      "options": [
+        {
+          "id": "a",
+          "label": "Isolamento"
+        },
+        {
+          "id": "b",
+          "label": "Normalização"
+        },
+        {
+          "id": "c",
+          "label": "Atomicidade"
+        },
+        {
+          "id": "d",
+          "label": "Consistência"
+        },
+        {
+          "id": "e",
+          "label": "Durabilidade"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-056",
+      "level": "Pleno",
+      "question": "Qual objetivo principal da normalização em banco relacional?",
+      "correct_option_id": "b",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 56,
+      "options": [
+        {
+          "id": "a",
+          "label": "Impedir consultas com JOIN"
+        },
+        {
+          "id": "b",
+          "label": "Reduzir redundância e melhorar consistência"
+        },
+        {
+          "id": "c",
+          "label": "Eliminar todas as chaves estrangeiras"
+        },
+        {
+          "id": "d",
+          "label": "Transformar tabelas em arquivos JSON"
+        },
+        {
+          "id": "e",
+          "label": "Aumentar duplicidade para acelerar INSERT"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-057",
+      "level": "Pleno",
+      "question": "Qual afirmação sobre índices é mais correta?",
+      "correct_option_id": "d",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 57,
+      "options": [
+        {
+          "id": "a",
+          "label": "Índices impedem duplicidade automaticamente em todos os casos"
+        },
+        {
+          "id": "b",
+          "label": "Índices substituem chaves primárias"
+        },
+        {
+          "id": "c",
+          "label": "Índices só existem em colunas de texto"
+        },
+        {
+          "id": "d",
+          "label": "Índices podem acelerar leituras, mas podem gerar custo em escritas"
+        },
+        {
+          "id": "e",
+          "label": "Índices sempre deixam qualquer query mais rápida"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-058",
+      "level": "Pleno",
+      "question": "Em um índice composto, por que a ordem das colunas importa?",
+      "correct_option_id": "b",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 58,
+      "options": [
+        {
+          "id": "a",
+          "label": "Porque muda o tipo dos dados gravados"
+        },
+        {
+          "id": "b",
+          "label": "Porque influencia quais filtros podem aproveitar melhor o índice"
+        },
+        {
+          "id": "c",
+          "label": "Porque o banco só aceita ordem alfabética"
+        },
+        {
+          "id": "d",
+          "label": "Porque impede uso de ORDER BY"
+        },
+        {
+          "id": "e",
+          "label": "Porque força todas as colunas a serem únicas"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-059",
+      "level": "Pleno",
+      "question": "Qual restrição garante que não existam valores repetidos em uma coluna ou conjunto de colunas?",
+      "correct_option_id": "d",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 59,
+      "options": [
+        {
+          "id": "a",
+          "label": "FOREIGN"
+        },
+        {
+          "id": "b",
+          "label": "CHECK"
+        },
+        {
+          "id": "c",
+          "label": "NOT FILTER"
+        },
+        {
+          "id": "d",
+          "label": "UNIQUE"
+        },
+        {
+          "id": "e",
+          "label": "DEFAULT"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-060",
+      "level": "Pleno",
+      "question": "Qual restrição valida se um valor atende a uma condição definida?",
+      "correct_option_id": "e",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 60,
+      "options": [
+        {
+          "id": "a",
+          "label": "UNIQUE"
+        },
+        {
+          "id": "b",
+          "label": "REFERENCES"
+        },
+        {
+          "id": "c",
+          "label": "PRIMARY"
+        },
+        {
+          "id": "d",
+          "label": "INDEX"
+        },
+        {
+          "id": "e",
+          "label": "CHECK"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-061",
+      "level": "Pleno",
+      "question": "O que ON DELETE CASCADE faz em uma chave estrangeira?",
+      "correct_option_id": "a",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 61,
+      "options": [
+        {
+          "id": "a",
+          "label": "Exclui automaticamente registros filhos relacionados quando o pai é excluído"
+        },
+        {
+          "id": "b",
+          "label": "Transforma DELETE em UPDATE"
+        },
+        {
+          "id": "c",
+          "label": "Cria índice em todas as tabelas"
+        },
+        {
+          "id": "d",
+          "label": "Duplica registros antes de excluir"
+        },
+        {
+          "id": "e",
+          "label": "Impede qualquer exclusão na tabela pai"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-062",
+      "level": "Pleno",
+      "question": "Qual operador é geralmente adequado para testar existência de linhas em uma subconsulta correlacionada?",
+      "correct_option_id": "a",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 62,
+      "options": [
+        {
+          "id": "a",
+          "label": "EXISTS"
+        },
+        {
+          "id": "b",
+          "label": "LIKE"
+        },
+        {
+          "id": "c",
+          "label": "ROUND"
+        },
+        {
+          "id": "d",
+          "label": "ORDER BY"
+        },
+        {
+          "id": "e",
+          "label": "BETWEEN"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-063",
+      "level": "Pleno",
+      "question": "Qual agregação ignora valores NULL da coluna informada?",
+      "correct_option_id": "c",
+      "explanation": "COUNT é uma função agregadora que conta registros ou valores não nulos, dependendo da expressão usada.",
+      "source_id": 63,
+      "options": [
+        {
+          "id": "a",
+          "label": "ORDER BY"
+        },
+        {
+          "id": "b",
+          "label": "COUNT(1) apenas"
+        },
+        {
+          "id": "c",
+          "label": "COUNT(coluna)"
+        },
+        {
+          "id": "d",
+          "label": "GROUP BY"
+        },
+        {
+          "id": "e",
+          "label": "COUNT(*)"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-064",
+      "level": "Pleno",
+      "question": "Qual função pode substituir NULL por um valor padrão em uma consulta?",
+      "correct_option_id": "d",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 64,
+      "options": [
+        {
+          "id": "a",
+          "label": "CASTNULL"
+        },
+        {
+          "id": "b",
+          "label": "RANK"
+        },
+        {
+          "id": "c",
+          "label": "NULLIF"
+        },
+        {
+          "id": "d",
+          "label": "COALESCE"
+        },
+        {
+          "id": "e",
+          "label": "ROUND"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-065",
+      "level": "Pleno",
+      "question": "Qual comando altera a estrutura de uma tabela, como adicionar uma coluna?",
+      "correct_option_id": "c",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 65,
+      "options": [
+        {
+          "id": "a",
+          "label": "UPDATE TABLE"
+        },
+        {
+          "id": "b",
+          "label": "CHANGE ROW"
+        },
+        {
+          "id": "c",
+          "label": "ALTER TABLE"
+        },
+        {
+          "id": "d",
+          "label": "MODIFY DATA"
+        },
+        {
+          "id": "e",
+          "label": "SET STRUCTURE"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-066",
+      "level": "Pleno",
+      "question": "Qual conversão é feita por CAST(valor AS tipo)?",
+      "correct_option_id": "a",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 66,
+      "options": [
+        {
+          "id": "a",
+          "label": "Converte o valor para outro tipo de dado"
+        },
+        {
+          "id": "b",
+          "label": "Ordena o valor"
+        },
+        {
+          "id": "c",
+          "label": "Remove valores nulos"
+        },
+        {
+          "id": "d",
+          "label": "Cria uma chave estrangeira"
+        },
+        {
+          "id": "e",
+          "label": "Agrupa o valor"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-067",
+      "level": "Pleno",
+      "question": "Qual é o uso mais correto de uma VIEW?",
+      "correct_option_id": "e",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 67,
+      "options": [
+        {
+          "id": "a",
+          "label": "Eliminar a necessidade de permissões"
+        },
+        {
+          "id": "b",
+          "label": "Criar sempre uma cópia física completa da tabela"
+        },
+        {
+          "id": "c",
+          "label": "Substituir backups"
+        },
+        {
+          "id": "d",
+          "label": "Forçar todas as consultas a usarem índice"
+        },
+        {
+          "id": "e",
+          "label": "Guardar uma consulta reutilizável como objeto lógico"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-068",
+      "level": "Sênior",
+      "question": "Qual comando é usado para inspecionar o plano de execução de uma consulta em muitos bancos SQL?",
+      "correct_option_id": "b",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 68,
+      "options": [
+        {
+          "id": "a",
+          "label": "TRACE TABLE"
+        },
+        {
+          "id": "b",
+          "label": "EXPLAIN"
+        },
+        {
+          "id": "c",
+          "label": "SHOW QUERY TEXT"
+        },
+        {
+          "id": "d",
+          "label": "PLANIFY"
+        },
+        {
+          "id": "e",
+          "label": "DESCRIBE PLAN"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-069",
+      "level": "Sênior",
+      "question": "O que EXPLAIN ANALYZE normalmente adiciona em relação ao EXPLAIN simples?",
+      "correct_option_id": "c",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 69,
+      "options": [
+        {
+          "id": "a",
+          "label": "Converte a query para JSON"
+        },
+        {
+          "id": "b",
+          "label": "Cria uma view materializada"
+        },
+        {
+          "id": "c",
+          "label": "Executa a query e mostra métricas reais de execução"
+        },
+        {
+          "id": "d",
+          "label": "Remove índices temporários"
+        },
+        {
+          "id": "e",
+          "label": "Bloqueia a tabela até o COMMIT"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-070",
+      "level": "Sênior",
+      "question": "O que significa uma condição ser sargable?",
+      "correct_option_id": "d",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 70,
+      "options": [
+        {
+          "id": "a",
+          "label": "É uma consulta que não aceita JOIN"
+        },
+        {
+          "id": "b",
+          "label": "Só funciona em tabelas pequenas"
+        },
+        {
+          "id": "c",
+          "label": "Nunca retorna valores NULL"
+        },
+        {
+          "id": "d",
+          "label": "Pode aproveitar bem um índice por evitar transformações inadequadas na coluna filtrada"
+        },
+        {
+          "id": "e",
+          "label": "Sempre usa GROUP BY antes do WHERE"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-071",
+      "level": "Sênior",
+      "question": "Qual filtro tende a prejudicar o uso direto de índice em uma coluna de data?",
+      "correct_option_id": "e",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 71,
+      "options": [
+        {
+          "id": "a",
+          "label": "data_pedido > CURRENT_DATE - INTERVAL '30 days'"
+        },
+        {
+          "id": "b",
+          "label": "data_pedido BETWEEN '2026-01-01' AND '2026-01-31'"
+        },
+        {
+          "id": "c",
+          "label": "data_pedido >= '2026-01-01' AND data_pedido < '2026-02-01'"
+        },
+        {
+          "id": "d",
+          "label": "data_pedido IS NOT NULL"
+        },
+        {
+          "id": "e",
+          "label": "DATE(data_pedido) = '2026-01-01'"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-072",
+      "level": "Sênior",
+      "question": "Em um índice B-tree, qual tipo de busca costuma ser bem atendida?",
+      "correct_option_id": "d",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 72,
+      "options": [
+        {
+          "id": "a",
+          "label": "Apenas buscas com LIKE '%texto%'"
+        },
+        {
+          "id": "b",
+          "label": "Somente colunas JSON"
+        },
+        {
+          "id": "c",
+          "label": "Somente agregações sem WHERE"
+        },
+        {
+          "id": "d",
+          "label": "Igualdade e intervalos ordenados"
+        },
+        {
+          "id": "e",
+          "label": "Apenas CROSS JOIN"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-073",
+      "level": "Sênior",
+      "question": "Em um índice composto (cliente_id, data_pedido), qual filtro tende a aproveitar melhor o prefixo do índice?",
+      "correct_option_id": "c",
+      "explanation": "WHERE filtra linhas antes de agrupamentos e agregações, por isso reduz o conjunto de dados analisado pela consulta.",
+      "source_id": 73,
+      "options": [
+        {
+          "id": "a",
+          "label": "WHERE ROUND(valor_total, 2) = 10"
+        },
+        {
+          "id": "b",
+          "label": "WHERE data_pedido = '2026-01-01'"
+        },
+        {
+          "id": "c",
+          "label": "WHERE cliente_id = 10"
+        },
+        {
+          "id": "d",
+          "label": "WHERE valor_total > 100"
+        },
+        {
+          "id": "e",
+          "label": "WHERE status LIKE '%pago%'"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-074",
+      "level": "Sênior",
+      "question": "O que é seletividade de um índice?",
+      "correct_option_id": "a",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 74,
+      "options": [
+        {
+          "id": "a",
+          "label": "A capacidade de um filtro reduzir bem a quantidade de linhas candidatas"
+        },
+        {
+          "id": "b",
+          "label": "A ordem das tabelas no FROM"
+        },
+        {
+          "id": "c",
+          "label": "O número de JOINs aceitos pelo banco"
+        },
+        {
+          "id": "d",
+          "label": "A quantidade de colunas exibidas no SELECT"
+        },
+        {
+          "id": "e",
+          "label": "O tamanho do arquivo de backup"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-075",
+      "level": "Sênior",
+      "question": "Qual índice é criado apenas para um subconjunto de linhas que atende a uma condição?",
+      "correct_option_id": "e",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 75,
+      "options": [
+        {
+          "id": "a",
+          "label": "Índice composto"
+        },
+        {
+          "id": "b",
+          "label": "Índice espelhado"
+        },
+        {
+          "id": "c",
+          "label": "Índice transitivo"
+        },
+        {
+          "id": "d",
+          "label": "Índice circular"
+        },
+        {
+          "id": "e",
+          "label": "Índice parcial"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-076",
+      "level": "Sênior",
+      "question": "O que uma materialized view normalmente armazena?",
+      "correct_option_id": "c",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 76,
+      "options": [
+        {
+          "id": "a",
+          "label": "Somente os índices de uma tabela"
+        },
+        {
+          "id": "b",
+          "label": "Logs de transações desfeitas"
+        },
+        {
+          "id": "c",
+          "label": "O resultado pré-calculado de uma consulta"
+        },
+        {
+          "id": "d",
+          "label": "Permissões de usuários"
+        },
+        {
+          "id": "e",
+          "label": "Apenas a definição textual da query"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-077",
+      "level": "Sênior",
+      "question": "Qual nível de isolamento permite leituras sujas no modelo clássico de isolamento?",
+      "correct_option_id": "e",
+      "explanation": "COMMIT confirma definitivamente as alterações feitas dentro de uma transação.",
+      "source_id": 77,
+      "options": [
+        {
+          "id": "a",
+          "label": "SNAPSHOT ONLY"
+        },
+        {
+          "id": "b",
+          "label": "SERIALIZABLE"
+        },
+        {
+          "id": "c",
+          "label": "REPEATABLE READ"
+        },
+        {
+          "id": "d",
+          "label": "READ COMMITTED"
+        },
+        {
+          "id": "e",
+          "label": "READ UNCOMMITTED"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-078",
+      "level": "Sênior",
+      "question": "Qual nível de isolamento evita leitura suja, mas ainda pode permitir leituras não repetíveis em muitos bancos?",
+      "correct_option_id": "e",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 78,
+      "options": [
+        {
+          "id": "a",
+          "label": "LOCK FREE"
+        },
+        {
+          "id": "b",
+          "label": "EXCLUSIVE READ"
+        },
+        {
+          "id": "c",
+          "label": "READ UNCOMMITTED"
+        },
+        {
+          "id": "d",
+          "label": "SERIALIZABLE"
+        },
+        {
+          "id": "e",
+          "label": "READ COMMITTED"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-079",
+      "level": "Sênior",
+      "question": "Qual nível de isolamento busca o comportamento equivalente à execução serial das transações?",
+      "correct_option_id": "e",
+      "explanation": "A resposta correta é SERIALIZABLE porque esse recurso atende diretamente ao conceito SQL descrito na pergunta.",
+      "source_id": 79,
+      "options": [
+        {
+          "id": "a",
+          "label": "AUTOCOMMIT"
+        },
+        {
+          "id": "b",
+          "label": "READ UNCOMMITTED"
+        },
+        {
+          "id": "c",
+          "label": "READ COMMITTED"
+        },
+        {
+          "id": "d",
+          "label": "SAVEPOINT"
+        },
+        {
+          "id": "e",
+          "label": "SERIALIZABLE"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-080",
+      "level": "Sênior",
+      "question": "O que caracteriza um deadlock?",
+      "correct_option_id": "b",
+      "explanation": "Uma CTE criada com WITH torna uma consulta intermediária nomeada e reutilizável dentro da query principal.",
+      "source_id": 80,
+      "options": [
+        {
+          "id": "a",
+          "label": "Uma query sem WHERE"
+        },
+        {
+          "id": "b",
+          "label": "Duas ou mais transações esperando recursos umas das outras em ciclo"
+        },
+        {
+          "id": "c",
+          "label": "Uma tabela sem chave primária"
+        },
+        {
+          "id": "d",
+          "label": "Um índice com baixa seletividade"
+        },
+        {
+          "id": "e",
+          "label": "Uma view sem ORDER BY"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-081",
+      "level": "Sênior",
+      "question": "Qual técnica é comum em controle de concorrência otimista?",
+      "correct_option_id": "a",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 81,
+      "options": [
+        {
+          "id": "a",
+          "label": "Usar coluna de versão/timestamp para detectar conflito ao salvar"
+        },
+        {
+          "id": "b",
+          "label": "Bloquear todas as tabelas antes de ler"
+        },
+        {
+          "id": "c",
+          "label": "Executar tudo em READ UNCOMMITTED"
+        },
+        {
+          "id": "d",
+          "label": "Remover índices antes do UPDATE"
+        },
+        {
+          "id": "e",
+          "label": "Evitar transações sempre"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-082",
+      "level": "Sênior",
+      "question": "Qual padrão é usado para inserir ou atualizar quando já existe conflito de chave em alguns bancos?",
+      "correct_option_id": "c",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 82,
+      "options": [
+        {
+          "id": "a",
+          "label": "UPDATE ALL"
+        },
+        {
+          "id": "b",
+          "label": "INSERT FORCE"
+        },
+        {
+          "id": "c",
+          "label": "UPSERT"
+        },
+        {
+          "id": "d",
+          "label": "MERGEBACK"
+        },
+        {
+          "id": "e",
+          "label": "REJOIN"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-083",
+      "level": "Sênior",
+      "question": "Qual algoritmo de JOIN costuma ser eficiente para grandes conjuntos em igualdade, sem depender de ordenação prévia?",
+      "correct_option_id": "d",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 83,
+      "options": [
+        {
+          "id": "a",
+          "label": "Nested Loop Join"
+        },
+        {
+          "id": "b",
+          "label": "Merge Join"
+        },
+        {
+          "id": "c",
+          "label": "Cross Join"
+        },
+        {
+          "id": "d",
+          "label": "Hash Join"
+        },
+        {
+          "id": "e",
+          "label": "Self Join"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-084",
+      "level": "Sênior",
+      "question": "Qual algoritmo de JOIN tende a ser eficiente quando a entrada externa é pequena e a interna tem índice adequado?",
+      "correct_option_id": "a",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 84,
+      "options": [
+        {
+          "id": "a",
+          "label": "Nested Loop Join"
+        },
+        {
+          "id": "b",
+          "label": "Bitmap Join"
+        },
+        {
+          "id": "c",
+          "label": "Merge Join"
+        },
+        {
+          "id": "d",
+          "label": "Hash Join"
+        },
+        {
+          "id": "e",
+          "label": "Full Scan Join"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-085",
+      "level": "Sênior",
+      "question": "Qual algoritmo de JOIN se beneficia de entradas já ordenadas pelas chaves de junção?",
+      "correct_option_id": "e",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 85,
+      "options": [
+        {
+          "id": "a",
+          "label": "Hash Join"
+        },
+        {
+          "id": "b",
+          "label": "Union Join"
+        },
+        {
+          "id": "c",
+          "label": "Random Join"
+        },
+        {
+          "id": "d",
+          "label": "Nested Loop Join"
+        },
+        {
+          "id": "e",
+          "label": "Merge Join"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-086",
+      "level": "Sênior",
+      "question": "Em função de janela, o que uma cláusula ROWS BETWEEN define?",
+      "correct_option_id": "d",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 86,
+      "options": [
+        {
+          "id": "a",
+          "label": "O tipo de dado retornado"
+        },
+        {
+          "id": "b",
+          "label": "A chave primária temporária da consulta"
+        },
+        {
+          "id": "c",
+          "label": "O número máximo de índices usados"
+        },
+        {
+          "id": "d",
+          "label": "O subconjunto de linhas da janela considerado para cada linha"
+        },
+        {
+          "id": "e",
+          "label": "A ordem física permanente da tabela"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-087",
+      "level": "Sênior",
+      "question": "Qual função de janela acessa o valor de uma linha anterior dentro da ordenação?",
+      "correct_option_id": "b",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 87,
+      "options": [
+        {
+          "id": "a",
+          "label": "BACK_VALUE"
+        },
+        {
+          "id": "b",
+          "label": "LAG"
+        },
+        {
+          "id": "c",
+          "label": "PREV_GROUP"
+        },
+        {
+          "id": "d",
+          "label": "LEAD"
+        },
+        {
+          "id": "e",
+          "label": "FIRST_ROW"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-088",
+      "level": "Sênior",
+      "question": "Qual função de janela acessa o valor de uma linha posterior dentro da ordenação?",
+      "correct_option_id": "e",
+      "explanation": "IN verifica se um valor pertence a uma lista ou ao resultado de uma subconsulta.",
+      "source_id": 88,
+      "options": [
+        {
+          "id": "a",
+          "label": "FORWARD_ROW"
+        },
+        {
+          "id": "b",
+          "label": "LAST_ONLY"
+        },
+        {
+          "id": "c",
+          "label": "LAG"
+        },
+        {
+          "id": "d",
+          "label": "NEXT_GROUP"
+        },
+        {
+          "id": "e",
+          "label": "LEAD"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-089",
+      "level": "Sênior",
+      "question": "Qual recurso permite consultar hierarquias, como árvore de categorias, repetindo uma consulta sobre si mesma?",
+      "correct_option_id": "b",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 89,
+      "options": [
+        {
+          "id": "a",
+          "label": "Materialized Index"
+        },
+        {
+          "id": "b",
+          "label": "Recursive CTE"
+        },
+        {
+          "id": "c",
+          "label": "Hash Partition"
+        },
+        {
+          "id": "d",
+          "label": "Window Frame"
+        },
+        {
+          "id": "e",
+          "label": "Cascade View"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-090",
+      "level": "Sênior",
+      "question": "Qual padrão é mais seguro para fazer anti-join quando a subconsulta pode retornar NULL?",
+      "correct_option_id": "e",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 90,
+      "options": [
+        {
+          "id": "a",
+          "label": "NOT IN sempre"
+        },
+        {
+          "id": "b",
+          "label": "COUNT(*) sem GROUP BY"
+        },
+        {
+          "id": "c",
+          "label": "LEFT JOIN sem condição"
+        },
+        {
+          "id": "d",
+          "label": "UNION ALL"
+        },
+        {
+          "id": "e",
+          "label": "NOT EXISTS"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-091",
+      "level": "Sênior",
+      "question": "Qual problema pode ocorrer com NOT IN quando a lista ou subconsulta contém NULL?",
+      "correct_option_id": "d",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 91,
+      "options": [
+        {
+          "id": "a",
+          "label": "Transforma automaticamente em INNER JOIN"
+        },
+        {
+          "id": "b",
+          "label": "Ignora todos os índices da tabela"
+        },
+        {
+          "id": "c",
+          "label": "Sempre duplica as linhas"
+        },
+        {
+          "id": "d",
+          "label": "Pode retornar nenhum resultado por causa da lógica de três valores"
+        },
+        {
+          "id": "e",
+          "label": "Remove valores NULL da tabela original"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-092",
+      "level": "Sênior",
+      "question": "O que estatísticas desatualizadas podem causar no otimizador de consultas?",
+      "correct_option_id": "c",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 92,
+      "options": [
+        {
+          "id": "a",
+          "label": "Conversão de todas as colunas para texto"
+        },
+        {
+          "id": "b",
+          "label": "Bloqueio permanente do banco"
+        },
+        {
+          "id": "c",
+          "label": "Estimativas ruins de cardinalidade e escolha de plano inadequado"
+        },
+        {
+          "id": "d",
+          "label": "Exclusão automática de linhas antigas"
+        },
+        {
+          "id": "e",
+          "label": "Criação de chaves estrangeiras inválidas"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-093",
+      "level": "Sênior",
+      "question": "Em modelagem dimensional, o que geralmente é uma tabela fato?",
+      "correct_option_id": "d",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 93,
+      "options": [
+        {
+          "id": "a",
+          "label": "Tabela usada apenas para logs de erro"
+        },
+        {
+          "id": "b",
+          "label": "Tabela sem relacionamentos"
+        },
+        {
+          "id": "c",
+          "label": "Tabela apenas com nomes de usuários"
+        },
+        {
+          "id": "d",
+          "label": "Tabela com medidas e chaves para dimensões"
+        },
+        {
+          "id": "e",
+          "label": "Tabela que armazena somente permissões"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-094",
+      "level": "Sênior",
+      "question": "Em Slowly Changing Dimension tipo 2, qual é a ideia principal?",
+      "correct_option_id": "e",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 94,
+      "options": [
+        {
+          "id": "a",
+          "label": "Guardar apenas o valor mais recente em cache"
+        },
+        {
+          "id": "b",
+          "label": "Excluir registros duplicados diariamente"
+        },
+        {
+          "id": "c",
+          "label": "Transformar dimensão em fato"
+        },
+        {
+          "id": "d",
+          "label": "Sobrescrever sempre o registro antigo"
+        },
+        {
+          "id": "e",
+          "label": "Manter histórico criando nova versão do registro"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-095",
+      "level": "Sênior",
+      "question": "O que significa uma carga ETL ser idempotente?",
+      "correct_option_id": "c",
+      "explanation": "A alternativa correta é \"Executar várias vezes com a mesma entrada gera o mesmo resultado esperado\" porque descreve com mais precisão o comportamento pedido pela pergunta em SQL.",
+      "source_id": 95,
+      "options": [
+        {
+          "id": "a",
+          "label": "Executar só funciona sem transação"
+        },
+        {
+          "id": "b",
+          "label": "Executar sempre cria duplicatas para auditoria"
+        },
+        {
+          "id": "c",
+          "label": "Executar várias vezes com a mesma entrada gera o mesmo resultado esperado"
+        },
+        {
+          "id": "d",
+          "label": "Executar uma vez apaga a origem"
+        },
+        {
+          "id": "e",
+          "label": "Executar ignora chaves naturais"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-096",
+      "level": "Sênior",
+      "question": "Qual prática reduz risco de SQL injection?",
+      "correct_option_id": "e",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 96,
+      "options": [
+        {
+          "id": "a",
+          "label": "Executar tudo como administrador"
+        },
+        {
+          "id": "b",
+          "label": "Remover todos os índices"
+        },
+        {
+          "id": "c",
+          "label": "Concatenar strings com entrada do usuário"
+        },
+        {
+          "id": "d",
+          "label": "Usar SELECT *"
+        },
+        {
+          "id": "e",
+          "label": "Usar queries parametrizadas"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-097",
+      "level": "Sênior",
+      "question": "Qual estratégia ajuda a processar grandes volumes sem carregar tudo em memória?",
+      "correct_option_id": "b",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 97,
+      "options": [
+        {
+          "id": "a",
+          "label": "SELECT * sem filtro"
+        },
+        {
+          "id": "b",
+          "label": "Paginação/lotes controlados"
+        },
+        {
+          "id": "c",
+          "label": "Converter tudo para texto"
+        },
+        {
+          "id": "d",
+          "label": "ORDER BY aleatório"
+        },
+        {
+          "id": "e",
+          "label": "CROSS JOIN entre tabelas grandes"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-098",
+      "level": "Sênior",
+      "question": "Qual técnica divide fisicamente ou logicamente uma tabela grande por faixa, lista ou hash?",
+      "correct_option_id": "b",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 98,
+      "options": [
+        {
+          "id": "a",
+          "label": "Materialização simples"
+        },
+        {
+          "id": "b",
+          "label": "Particionamento"
+        },
+        {
+          "id": "c",
+          "label": "Agregação"
+        },
+        {
+          "id": "d",
+          "label": "Normalização terceira forma"
+        },
+        {
+          "id": "e",
+          "label": "Serialização"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-099",
+      "level": "Sênior",
+      "question": "Qual benefício comum do particionamento por data em tabelas muito grandes?",
+      "correct_option_id": "d",
+      "explanation": "MIN retorna o menor valor encontrado em uma coluna ou expressão.",
+      "source_id": 99,
+      "options": [
+        {
+          "id": "a",
+          "label": "Remover necessidade de backup"
+        },
+        {
+          "id": "b",
+          "label": "Substituir todas as chaves estrangeiras"
+        },
+        {
+          "id": "c",
+          "label": "Impedir qualquer UPDATE"
+        },
+        {
+          "id": "d",
+          "label": "Eliminar partições irrelevantes durante filtros de data"
+        },
+        {
+          "id": "e",
+          "label": "Garantir unicidade global automaticamente em todos os bancos"
+        }
+      ]
+    },
+    {
+      "id": "quiz-sql-100",
+      "level": "Sênior",
+      "question": "Qual abordagem é mais adequada para atualizar uma tabela de destino a partir de uma origem incremental?",
+      "correct_option_id": "a",
+      "explanation": "ON define a condição que relaciona as tabelas em um JOIN, geralmente comparando chave estrangeira com chave primária.",
+      "source_id": 100,
+      "options": [
+        {
+          "id": "a",
+          "label": "MERGE ou lógica equivalente de insert/update controlado"
+        },
+        {
+          "id": "b",
+          "label": "CROSS JOIN com a origem inteira"
+        },
+        {
+          "id": "c",
+          "label": "SELECT DISTINCT em todas as colunas sem chave"
+        },
+        {
+          "id": "d",
+          "label": "ORDER BY sem WHERE"
+        },
+        {
+          "id": "e",
+          "label": "DROP TABLE sempre antes de carregar"
+        }
+      ]
+    }
+  ]
+}
