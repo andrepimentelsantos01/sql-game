@@ -83,6 +83,15 @@ CORS_ORIGINS=https://seu-frontend.vercel.app
 
 O frontend tambem aceita `/api` como fallback para deploys em que frontend e backend ficam no mesmo dominio.
 
+### Deploy monorepo na Vercel
+
+Se a Vercel detectar o projeto como multiplos servicos, use o `vercel.json` da raiz. Ele publica:
+
+- Frontend em `/`
+- Backend em `/_backend`
+
+Nesse modo, nao e necessario configurar `VITE_API_BASE_URL`; o frontend usa `/_backend` automaticamente em producao.
+
 ## MVP atual
 
 - Missoes narrativas por categoria.
